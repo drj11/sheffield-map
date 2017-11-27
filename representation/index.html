@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+<!-- per http://leafletjs.com/examples/quick-start/ -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   crossorigin=""></script>
+</head>
+<body>
+<div class="sheffmap" style="height:600px"
+  data-url="2017representation.json"
+  data-column="representation"
+  data-label="labelTurnout"
+  data-style="styleRepresentation"
+  ></div>
+<script src="https://drj11.github.io/sheffield-maps/sheffmap.js"></script>
+<script>
+
+labelTurnout = function(v, d, feature) {
+  return feature.properties.name
+}
+
+styleRepresentation = function(v, d, descriptor) {
+  return {
+    fillOpacity: 0.6,
+    fillColor: "url(#pattern" + v + ")",
+  }
+}
+
+addPatterns = function() {
+  load("2017representation.json", function(xhr) {
+    var j = JSON.parse(xhr.responseText)
+    var r = {}
+    for(var k in j) {
+      r[j[k].representation] = true
+    }
+    
+    var svg = document.querySelector('svg')
+    var defs =
+      document.createElementNS("http://www.w3.org/2000/svg", 'defs')
+    svg.appendChild(defs)
+    svg.insertBefore(defs, svg.firstChild)
+
+    for(var p in r) {
+      addPattern(defs, p)
+    }
+  })
+}
+
+addPattern = function(defs, s) {
+  var colourFromLetter = function(l) {
+    if(l == "G") {
+      return '#086'
+    }
+    if(l == "l") {
+      return '#fb3'
+    }
+    if(l == "L") {
+      return '#d00'
+    }
+    if(l == "U") {
+      return '#b09'
+    }
+    return '#aaa'
+  }
+
+  var lines = ''
+  for(var i=0; 3>i; ++i) {
+    lines += line(colourFromLetter(s[i]), i)
+  }
+
+  var p = document.createElementNS("http://www.w3.org/2000/svg",
+    'pattern')
+  var x = '<pattern id="pattern' + s + '" height="10" ' +
+    'patternUnits="userSpaceOnUse" patternTransform="rotate(0)" ' +
+    'width="12">' + lines +
+    '</pattern>'
+  defs.appendChild(p)
+  p.outerHTML = x
+  return p
+}
+
+line = function(col, i) {
+  var x = 4*i + 2
+  return '' +
+  '<line stroke-width="4px" x1="' +
+    x + '" x2="' + x + '" y2="10" stroke="' + col + '"></line>'
+}
+
+var observer = new MutationObserver(function(ms) {
+  ms.forEach(function(m) {
+    for(var i=0; m.addedNodes.length>i; ++i) {
+      var node = m.addedNodes[i]
+      if(node.tagName == "svg") {
+        addPatterns()
+        observer.disconnect()
+      }
+    }
+  })
+})
+
+observer.observe(document, { childList: true, subtree: true })
+
+mapinate()
+
+</script>
+</body>

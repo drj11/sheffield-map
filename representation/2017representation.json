@@ -1,0 +1,142 @@
+{
+  "E05010869": {
+    "name": "Fulwood",
+    "gss": "E05010869",
+    "representation": "lll"
+  },
+  "E05010863": {
+    "name": "Crookes & Crosspool",
+    "gss": "E05010863",
+    "representation": "LlL"
+  },
+  "E05010862": {
+    "name": "City",
+    "gss": "E05010862",
+    "representation": "GGL"
+  },
+  "E05010866": {
+    "name": "East Ecclesfield",
+    "gss": "E05010866",
+    "representation": "ULL"
+  },
+  "E05010872": {
+    "name": "Hillsborough",
+    "gss": "E05010872",
+    "representation": "LLL"
+  },
+  "E05010864": {
+    "name": "Darnall",
+    "gss": "E05010864",
+    "representation": "LLL"
+  },
+  "E05010882": {
+    "name": "Walkley",
+    "gss": "E05010882",
+    "representation": "LLL"
+  },
+  "E05010880": {
+    "name": "Stannington",
+    "gss": "E05010880",
+    "representation": "lll"
+  },
+  "E05010865": {
+    "name": "Dore & Totley",
+    "gss": "E05010865",
+    "representation": "lll"
+  },
+  "E05010870": {
+    "name": "Gleadless Valley",
+    "gss": "E05010870",
+    "representation": "LLL"
+  },
+  "E05010871": {
+    "name": "Graves Park",
+    "gss": "E05010871",
+    "representation": "lll"
+  },
+  "E05010861": {
+    "name": "Burngreave",
+    "gss": "E05010861",
+    "representation": "LLL"
+  },
+  "E05010874": {
+    "name": "Mosborough",
+    "gss": "E05010874",
+    "representation": "LLl"
+  },
+  "E05010867": {
+    "name": "Ecclesall",
+    "gss": "E05010867",
+    "representation": "lll"
+  },
+  "E05010877": {
+    "name": "Richmond",
+    "gss": "E05010877",
+    "representation": "LLL"
+  },
+  "E05010881": {
+    "name": "Stocksbridge & Upper Don",
+    "gss": "E05010881",
+    "representation": "ULU"
+  },
+  "E05010879": {
+    "name": "Southey",
+    "gss": "E05010879",
+    "representation": "LLL"
+  },
+  "E05010858": {
+    "name": "Beighton",
+    "gss": "E05010858",
+    "representation": "LLL"
+  },
+  "E05010875": {
+    "name": "Nether Edge & Sharrow",
+    "gss": "E05010875",
+    "representation": "LLG"
+  },
+  "E05010873": {
+    "name": "Manor Castle",
+    "gss": "E05010873",
+    "representation": "LLL"
+  },
+  "E05010883": {
+    "name": "West Ecclesfield",
+    "gss": "E05010883",
+    "representation": "ULL"
+  },
+  "E05010857": {
+    "name": "Beauchief & Greenhill",
+    "gss": "E05010857",
+    "representation": "lll"
+  },
+  "E05010860": {
+    "name": "Broomhill & Sharrow Vale",
+    "gss": "E05010860",
+    "representation": "LLG"
+  },
+  "E05010859": {
+    "name": "Birley",
+    "gss": "E05010859",
+    "representation": "LLL"
+  },
+  "E05010868": {
+    "name": "Firth Park",
+    "gss": "E05010868",
+    "representation": "LLL"
+  },
+  "E05010884": {
+    "name": "Woodhouse",
+    "gss": "E05010884",
+    "representation": "LLL"
+  },
+  "E05010878": {
+    "name": "Shiregreen & Brightside",
+    "gss": "E05010878",
+    "representation": "LLL"
+  },
+  "E05010876": {
+    "name": "Park & Arbourthorne",
+    "gss": "E05010876",
+    "representation": "LLL"
+  }
+}
