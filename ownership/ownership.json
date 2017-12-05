@@ -1,0 +1,1382 @@
+{
+  "E01008144": {
+    "ownershipfraction": 0.75,
+    "name": "Sheffield 001A"
+  },
+  "E01008145": {
+    "ownershipfraction": 0.518258,
+    "name": "Sheffield 001B"
+  },
+  "E01008148": {
+    "ownershipfraction": 0.756672,
+    "name": "Sheffield 001C"
+  },
+  "E01008149": {
+    "ownershipfraction": 0.888208,
+    "name": "Sheffield 001D"
+  },
+  "E01008150": {
+    "ownershipfraction": 0.675549,
+    "name": "Sheffield 001E"
+  },
+  "E01008142": {
+    "ownershipfraction": 0.727127,
+    "name": "Sheffield 002A"
+  },
+  "E01008143": {
+    "ownershipfraction": 0.729381,
+    "name": "Sheffield 002B"
+  },
+  "E01008146": {
+    "ownershipfraction": 0.971319,
+    "name": "Sheffield 002C"
+  },
+  "E01008147": {
+    "ownershipfraction": 0.841167,
+    "name": "Sheffield 002D"
+  },
+  "E01007888": {
+    "ownershipfraction": 0.905967,
+    "name": "Sheffield 003A"
+  },
+  "E01007892": {
+    "ownershipfraction": 0.380282,
+    "name": "Sheffield 003B"
+  },
+  "E01007893": {
+    "ownershipfraction": 0.92504,
+    "name": "Sheffield 003C"
+  },
+  "E01007898": {
+    "ownershipfraction": 0.882068,
+    "name": "Sheffield 003D"
+  },
+  "E01007899": {
+    "ownershipfraction": 0.931373,
+    "name": "Sheffield 003E"
+  },
+  "E01007900": {
+    "ownershipfraction": 0.631579,
+    "name": "Sheffield 003F"
+  },
+  "E01007901": {
+    "ownershipfraction": 0.411517,
+    "name": "Sheffield 003G"
+  },
+  "E01007887": {
+    "ownershipfraction": 0.723967,
+    "name": "Sheffield 004A"
+  },
+  "E01007889": {
+    "ownershipfraction": 0.881226,
+    "name": "Sheffield 004B"
+  },
+  "E01007890": {
+    "ownershipfraction": 0.907692,
+    "name": "Sheffield 004C"
+  },
+  "E01007891": {
+    "ownershipfraction": 0.93475,
+    "name": "Sheffield 004D"
+  },
+  "E01007894": {
+    "ownershipfraction": 0.796557,
+    "name": "Sheffield 004E"
+  },
+  "E01007895": {
+    "ownershipfraction": 0.595349,
+    "name": "Sheffield 004F"
+  },
+  "E01007896": {
+    "ownershipfraction": 0.949183,
+    "name": "Sheffield 004G"
+  },
+  "E01007897": {
+    "ownershipfraction": 0.903537,
+    "name": "Sheffield 005A"
+  },
+  "E01008134": {
+    "ownershipfraction": 0.746753,
+    "name": "Sheffield 005B"
+  },
+  "E01008135": {
+    "ownershipfraction": 0.791557,
+    "name": "Sheffield 005C"
+  },
+  "E01008137": {
+    "ownershipfraction": 0.942492,
+    "name": "Sheffield 005D"
+  },
+  "E01008141": {
+    "ownershipfraction": 0.881559,
+    "name": "Sheffield 005E"
+  },
+  "E01008053": {
+    "ownershipfraction": 0.488496,
+    "name": "Sheffield 006A"
+  },
+  "E01008056": {
+    "ownershipfraction": 0.644781,
+    "name": "Sheffield 006B"
+  },
+  "E01008058": {
+    "ownershipfraction": 0.770968,
+    "name": "Sheffield 006C"
+  },
+  "E01008138": {
+    "ownershipfraction": 0.496825,
+    "name": "Sheffield 006D"
+  },
+  "E01008139": {
+    "ownershipfraction": 0.684583,
+    "name": "Sheffield 006E"
+  },
+  "E01007856": {
+    "ownershipfraction": 0.511971,
+    "name": "Sheffield 007A"
+  },
+  "E01008054": {
+    "ownershipfraction": 0.404097,
+    "name": "Sheffield 007B"
+  },
+  "E01008055": {
+    "ownershipfraction": 0.388797,
+    "name": "Sheffield 007C"
+  },
+  "E01008057": {
+    "ownershipfraction": 0.451667,
+    "name": "Sheffield 007D"
+  },
+  "E01008126": {
+    "ownershipfraction": 0.883901,
+    "name": "Sheffield 008A"
+  },
+  "E01008128": {
+    "ownershipfraction": 0.731674,
+    "name": "Sheffield 008C"
+  },
+  "E01008136": {
+    "ownershipfraction": 0.695205,
+    "name": "Sheffield 008D"
+  },
+  "E01008140": {
+    "ownershipfraction": 0.665094,
+    "name": "Sheffield 008E"
+  },
+  "E01033275": {
+    "ownershipfraction": 0.687023,
+    "name": "Sheffield 008F"
+  },
+  "E01033280": {
+    "ownershipfraction": 0.916805,
+    "name": "Sheffield 008G"
+  },
+  "E01008085": {
+    "ownershipfraction": 0.440843,
+    "name": "Sheffield 009A"
+  },
+  "E01008086": {
+    "ownershipfraction": 0.497391,
+    "name": "Sheffield 009B"
+  },
+  "E01008116": {
+    "ownershipfraction": 0.380435,
+    "name": "Sheffield 009C"
+  },
+  "E01008117": {
+    "ownershipfraction": 0.405405,
+    "name": "Sheffield 009D"
+  },
+  "E01008118": {
+    "ownershipfraction": 0.470779,
+    "name": "Sheffield 009E"
+  },
+  "E01008119": {
+    "ownershipfraction": 0.462687,
+    "name": "Sheffield 009F"
+  },
+  "E01008125": {
+    "ownershipfraction": 0.630719,
+    "name": "Sheffield 009G"
+  },
+  "E01007849": {
+    "ownershipfraction": 0.471132,
+    "name": "Sheffield 010A"
+  },
+  "E01007857": {
+    "ownershipfraction": 0.444615,
+    "name": "Sheffield 010B"
+  },
+  "E01008059": {
+    "ownershipfraction": 0.432859,
+    "name": "Sheffield 010C"
+  },
+  "E01008060": {
+    "ownershipfraction": 0.371795,
+    "name": "Sheffield 010D"
+  },
+  "E01008061": {
+    "ownershipfraction": 0.42681,
+    "name": "Sheffield 011A"
+  },
+  "E01008063": {
+    "ownershipfraction": 0.638177,
+    "name": "Sheffield 011B"
+  },
+  "E01033277": {
+    "ownershipfraction": 0.361635,
+    "name": "Sheffield 011E"
+  },
+  "E01008087": {
+    "ownershipfraction": 0.83958,
+    "name": "Sheffield 012A"
+  },
+  "E01008088": {
+    "ownershipfraction": 0.755319,
+    "name": "Sheffield 012B"
+  },
+  "E01008090": {
+    "ownershipfraction": 0.382749,
+    "name": "Sheffield 012C"
+  },
+  "E01008092": {
+    "ownershipfraction": 0.298898,
+    "name": "Sheffield 012D"
+  },
+  "E01008122": {
+    "ownershipfraction": 0.29562,
+    "name": "Sheffield 012E"
+  },
+  "E01008124": {
+    "ownershipfraction": 0.248869,
+    "name": "Sheffield 012F"
+  },
+  "E01007848": {
+    "ownershipfraction": 0.373004,
+    "name": "Sheffield 013A"
+  },
+  "E01007851": {
+    "ownershipfraction": 0.572519,
+    "name": "Sheffield 013B"
+  },
+  "E01007947": {
+    "ownershipfraction": 0.175115,
+    "name": "Sheffield 013C"
+  },
+  "E01007948": {
+    "ownershipfraction": 0.357843,
+    "name": "Sheffield 013D"
+  },
+  "E01008062": {
+    "ownershipfraction": 0.315789,
+    "name": "Sheffield 013E"
+  },
+  "E01007847": {
+    "ownershipfraction": 0.550544,
+    "name": "Sheffield 014A"
+  },
+  "E01007850": {
+    "ownershipfraction": 0.836834,
+    "name": "Sheffield 014B"
+  },
+  "E01007852": {
+    "ownershipfraction": 0.708006,
+    "name": "Sheffield 014C"
+  },
+  "E01007853": {
+    "ownershipfraction": 0.781476,
+    "name": "Sheffield 014D"
+  },
+  "E01007854": {
+    "ownershipfraction": 0.505426,
+    "name": "Sheffield 014E"
+  },
+  "E01007855": {
+    "ownershipfraction": 0.575796,
+    "name": "Sheffield 014F"
+  },
+  "E01007941": {
+    "ownershipfraction": 0.4375,
+    "name": "Sheffield 015A"
+  },
+  "E01007945": {
+    "ownershipfraction": 0.433735,
+    "name": "Sheffield 015B"
+  },
+  "E01007946": {
+    "ownershipfraction": 0.359551,
+    "name": "Sheffield 015C"
+  },
+  "E01007950": {
+    "ownershipfraction": 0.454259,
+    "name": "Sheffield 015D"
+  },
+  "E01008123": {
+    "ownershipfraction": 0.43738,
+    "name": "Sheffield 015E"
+  },
+  "E01007987": {
+    "ownershipfraction": 0.834739,
+    "name": "Sheffield 016A"
+  },
+  "E01007988": {
+    "ownershipfraction": 0.812596,
+    "name": "Sheffield 016B"
+  },
+  "E01007989": {
+    "ownershipfraction": 0.771005,
+    "name": "Sheffield 016C"
+  },
+  "E01007991": {
+    "ownershipfraction": 0.436597,
+    "name": "Sheffield 016D"
+  },
+  "E01007995": {
+    "ownershipfraction": 0.66092,
+    "name": "Sheffield 017A"
+  },
+  "E01008089": {
+    "ownershipfraction": 0.424107,
+    "name": "Sheffield 017B"
+  },
+  "E01008091": {
+    "ownershipfraction": 0.76507,
+    "name": "Sheffield 017C"
+  },
+  "E01008093": {
+    "ownershipfraction": 0.596378,
+    "name": "Sheffield 017D"
+  },
+  "E01007903": {
+    "ownershipfraction": 0.616299,
+    "name": "Sheffield 018A"
+  },
+  "E01007904": {
+    "ownershipfraction": 0.277037,
+    "name": "Sheffield 018B"
+  },
+  "E01007913": {
+    "ownershipfraction": 0.48218,
+    "name": "Sheffield 018C"
+  },
+  "E01007914": {
+    "ownershipfraction": 0.5,
+    "name": "Sheffield 018D"
+  },
+  "E01007870": {
+    "ownershipfraction": 0.498645,
+    "name": "Sheffield 019A"
+  },
+  "E01007871": {
+    "ownershipfraction": 0.377778,
+    "name": "Sheffield 019B"
+  },
+  "E01007943": {
+    "ownershipfraction": 0.264484,
+    "name": "Sheffield 019C"
+  },
+  "E01008094": {
+    "ownershipfraction": 0.462845,
+    "name": "Sheffield 019D"
+  },
+  "E01007869": {
+    "ownershipfraction": 0.625984,
+    "name": "Sheffield 020A"
+  },
+  "E01007872": {
+    "ownershipfraction": 0.684211,
+    "name": "Sheffield 020B"
+  },
+  "E01007873": {
+    "ownershipfraction": 0.37558,
+    "name": "Sheffield 020C"
+  },
+  "E01007942": {
+    "ownershipfraction": 0.598456,
+    "name": "Sheffield 020D"
+  },
+  "E01007949": {
+    "ownershipfraction": 0.633466,
+    "name": "Sheffield 020E"
+  },
+  "E01007990": {
+    "ownershipfraction": 0.698941,
+    "name": "Sheffield 021A"
+  },
+  "E01007992": {
+    "ownershipfraction": 0.756447,
+    "name": "Sheffield 021B"
+  },
+  "E01007993": {
+    "ownershipfraction": 0.606676,
+    "name": "Sheffield 021C"
+  },
+  "E01007994": {
+    "ownershipfraction": 0.797364,
+    "name": "Sheffield 021D"
+  },
+  "E01007996": {
+    "ownershipfraction": 0.663818,
+    "name": "Sheffield 021E"
+  },
+  "E01007874": {
+    "ownershipfraction": 0.28849,
+    "name": "Sheffield 022A"
+  },
+  "E01007875": {
+    "ownershipfraction": 0.278418,
+    "name": "Sheffield 022B"
+  },
+  "E01007877": {
+    "ownershipfraction": 0.619617,
+    "name": "Sheffield 022D"
+  },
+  "E01007940": {
+    "ownershipfraction": 0.350794,
+    "name": "Sheffield 022E"
+  },
+  "E01007944": {
+    "ownershipfraction": 0.468803,
+    "name": "Sheffield 022F"
+  },
+  "E01033269": {
+    "ownershipfraction": 0.157658,
+    "name": "Sheffield 022G"
+  },
+  "E01033270": {
+    "ownershipfraction": 0.0787802,
+    "name": "Sheffield 022H"
+  },
+  "E01008129": {
+    "ownershipfraction": 0.802768,
+    "name": "Sheffield 023A"
+  },
+  "E01008130": {
+    "ownershipfraction": 0.806801,
+    "name": "Sheffield 023B"
+  },
+  "E01008131": {
+    "ownershipfraction": 0.841538,
+    "name": "Sheffield 023C"
+  },
+  "E01008132": {
+    "ownershipfraction": 0.956989,
+    "name": "Sheffield 023D"
+  },
+  "E01008133": {
+    "ownershipfraction": 0.68414,
+    "name": "Sheffield 023E"
+  },
+  "E01008151": {
+    "ownershipfraction": 0.563662,
+    "name": "Sheffield 024A"
+  },
+  "E01008153": {
+    "ownershipfraction": 0.595948,
+    "name": "Sheffield 024B"
+  },
+  "E01008154": {
+    "ownershipfraction": 0.619579,
+    "name": "Sheffield 024C"
+  },
+  "E01008155": {
+    "ownershipfraction": 0.529086,
+    "name": "Sheffield 024D"
+  },
+  "E01008156": {
+    "ownershipfraction": 0.873887,
+    "name": "Sheffield 024E"
+  },
+  "E01008160": {
+    "ownershipfraction": 0.736682,
+    "name": "Sheffield 024F"
+  },
+  "E01007997": {
+    "ownershipfraction": 0.869565,
+    "name": "Sheffield 025A"
+  },
+  "E01007998": {
+    "ownershipfraction": 0.395062,
+    "name": "Sheffield 025B"
+  },
+  "E01008152": {
+    "ownershipfraction": 0.8,
+    "name": "Sheffield 025C"
+  },
+  "E01008158": {
+    "ownershipfraction": 0.560274,
+    "name": "Sheffield 025D"
+  },
+  "E01008065": {
+    "ownershipfraction": 0.092228,
+    "name": "Sheffield 026A"
+  },
+  "E01008068": {
+    "ownershipfraction": 0.138047,
+    "name": "Sheffield 026B"
+  },
+  "E01008072": {
+    "ownershipfraction": 0.373476,
+    "name": "Sheffield 026C"
+  },
+  "E01008157": {
+    "ownershipfraction": 0.310827,
+    "name": "Sheffield 026D"
+  },
+  "E01008161": {
+    "ownershipfraction": 0.667081,
+    "name": "Sheffield 026E"
+  },
+  "E01007883": {
+    "ownershipfraction": 0.355072,
+    "name": "Sheffield 027A"
+  },
+  "E01007902": {
+    "ownershipfraction": 0.27399,
+    "name": "Sheffield 027B"
+  },
+  "E01007905": {
+    "ownershipfraction": 0.378168,
+    "name": "Sheffield 027C"
+  },
+  "E01007906": {
+    "ownershipfraction": 0.470681,
+    "name": "Sheffield 027D"
+  },
+  "E01008064": {
+    "ownershipfraction": 0.463376,
+    "name": "Sheffield 028A"
+  },
+  "E01008066": {
+    "ownershipfraction": 0.274123,
+    "name": "Sheffield 028B"
+  },
+  "E01008069": {
+    "ownershipfraction": 0.368237,
+    "name": "Sheffield 028C"
+  },
+  "E01008074": {
+    "ownershipfraction": 0.561497,
+    "name": "Sheffield 028D"
+  },
+  "E01007951": {
+    "ownershipfraction": 0.699281,
+    "name": "Sheffield 029A"
+  },
+  "E01007960": {
+    "ownershipfraction": 0.634006,
+    "name": "Sheffield 029B"
+  },
+  "E01007962": {
+    "ownershipfraction": 0.353503,
+    "name": "Sheffield 029C"
+  },
+  "E01008159": {
+    "ownershipfraction": 0.677165,
+    "name": "Sheffield 029D"
+  },
+  "E01007866": {
+    "ownershipfraction": 0.393357,
+    "name": "Sheffield 030A"
+  },
+  "E01007867": {
+    "ownershipfraction": 0.211356,
+    "name": "Sheffield 030B"
+  },
+  "E01007868": {
+    "ownershipfraction": 0.513185,
+    "name": "Sheffield 030C"
+  },
+  "E01008067": {
+    "ownershipfraction": 0.161017,
+    "name": "Sheffield 030D"
+  },
+  "E01008073": {
+    "ownershipfraction": 0.398571,
+    "name": "Sheffield 030E"
+  },
+  "E01007907": {
+    "ownershipfraction": 0.805128,
+    "name": "Sheffield 032A"
+  },
+  "E01007908": {
+    "ownershipfraction": 0.840426,
+    "name": "Sheffield 032B"
+  },
+  "E01007909": {
+    "ownershipfraction": 0.750288,
+    "name": "Sheffield 032C"
+  },
+  "E01007911": {
+    "ownershipfraction": 0.923986,
+    "name": "Sheffield 032D"
+  },
+  "E01008014": {
+    "ownershipfraction": 0.549563,
+    "name": "Sheffield 032E"
+  },
+  "E01008016": {
+    "ownershipfraction": 0.676329,
+    "name": "Sheffield 032F"
+  },
+  "E01007952": {
+    "ownershipfraction": 0.906832,
+    "name": "Sheffield 033A"
+  },
+  "E01007953": {
+    "ownershipfraction": 0.578199,
+    "name": "Sheffield 033B"
+  },
+  "E01007954": {
+    "ownershipfraction": 0.906154,
+    "name": "Sheffield 033C"
+  },
+  "E01007961": {
+    "ownershipfraction": 0.881557,
+    "name": "Sheffield 033D"
+  },
+  "E01007859": {
+    "ownershipfraction": 0.392157,
+    "name": "Sheffield 036A"
+  },
+  "E01007860": {
+    "ownershipfraction": 0.362438,
+    "name": "Sheffield 036B"
+  },
+  "E01007863": {
+    "ownershipfraction": 0.533333,
+    "name": "Sheffield 036C"
+  },
+  "E01007864": {
+    "ownershipfraction": 0.201536,
+    "name": "Sheffield 036D"
+  },
+  "E01008104": {
+    "ownershipfraction": 0.336595,
+    "name": "Sheffield 036E"
+  },
+  "E01007910": {
+    "ownershipfraction": 0.507565,
+    "name": "Sheffield 037A"
+  },
+  "E01007912": {
+    "ownershipfraction": 0.724138,
+    "name": "Sheffield 037B"
+  },
+  "E01007971": {
+    "ownershipfraction": 0.633279,
+    "name": "Sheffield 037C"
+  },
+  "E01007973": {
+    "ownershipfraction": 0.875,
+    "name": "Sheffield 037D"
+  },
+  "E01007858": {
+    "ownershipfraction": 0.677966,
+    "name": "Sheffield 038A"
+  },
+  "E01007861": {
+    "ownershipfraction": 0.856509,
+    "name": "Sheffield 038B"
+  },
+  "E01007862": {
+    "ownershipfraction": 0.432551,
+    "name": "Sheffield 038C"
+  },
+  "E01007865": {
+    "ownershipfraction": 0.729659,
+    "name": "Sheffield 038D"
+  },
+  "E01008011": {
+    "ownershipfraction": 0.175439,
+    "name": "Sheffield 039A"
+  },
+  "E01008012": {
+    "ownershipfraction": 0.251037,
+    "name": "Sheffield 039B"
+  },
+  "E01008013": {
+    "ownershipfraction": 0.318786,
+    "name": "Sheffield 039C"
+  },
+  "E01008015": {
+    "ownershipfraction": 0.383266,
+    "name": "Sheffield 039D"
+  },
+  "E01008017": {
+    "ownershipfraction": 0.272214,
+    "name": "Sheffield 039E"
+  },
+  "E01008018": {
+    "ownershipfraction": 0.379747,
+    "name": "Sheffield 039F"
+  },
+  "E01008105": {
+    "ownershipfraction": 0.303815,
+    "name": "Sheffield 040A"
+  },
+  "E01008107": {
+    "ownershipfraction": 0.25873,
+    "name": "Sheffield 040C"
+  },
+  "E01008111": {
+    "ownershipfraction": 0.315331,
+    "name": "Sheffield 040D"
+  },
+  "E01033271": {
+    "ownershipfraction": 0.0552699,
+    "name": "Sheffield 040E"
+  },
+  "E01033272": {
+    "ownershipfraction": 0.127407,
+    "name": "Sheffield 040F"
+  },
+  "E01007955": {
+    "ownershipfraction": 0.907063,
+    "name": "Sheffield 041A"
+  },
+  "E01007956": {
+    "ownershipfraction": 0.884615,
+    "name": "Sheffield 041B"
+  },
+  "E01007957": {
+    "ownershipfraction": 0.937984,
+    "name": "Sheffield 041C"
+  },
+  "E01007958": {
+    "ownershipfraction": 0.901294,
+    "name": "Sheffield 041D"
+  },
+  "E01007959": {
+    "ownershipfraction": 0.941176,
+    "name": "Sheffield 041E"
+  },
+  "E01008108": {
+    "ownershipfraction": 0.263158,
+    "name": "Sheffield 042A"
+  },
+  "E01008109": {
+    "ownershipfraction": 0.298487,
+    "name": "Sheffield 042B"
+  },
+  "E01008112": {
+    "ownershipfraction": 0.396522,
+    "name": "Sheffield 042D"
+  },
+  "E01008113": {
+    "ownershipfraction": 0.554012,
+    "name": "Sheffield 042E"
+  },
+  "E01033273": {
+    "ownershipfraction": 0.209091,
+    "name": "Sheffield 042F"
+  },
+  "E01033274": {
+    "ownershipfraction": 0.0931459,
+    "name": "Sheffield 042G"
+  },
+  "E01008095": {
+    "ownershipfraction": 0.232114,
+    "name": "Sheffield 043A"
+  },
+  "E01008096": {
+    "ownershipfraction": 0.275825,
+    "name": "Sheffield 043B"
+  },
+  "E01008097": {
+    "ownershipfraction": 0.31831,
+    "name": "Sheffield 043C"
+  },
+  "E01008101": {
+    "ownershipfraction": 0.438639,
+    "name": "Sheffield 043D"
+  },
+  "E01007965": {
+    "ownershipfraction": 0.432658,
+    "name": "Sheffield 044A"
+  },
+  "E01007969": {
+    "ownershipfraction": 0.707668,
+    "name": "Sheffield 044B"
+  },
+  "E01007972": {
+    "ownershipfraction": 0.931485,
+    "name": "Sheffield 044C"
+  },
+  "E01007974": {
+    "ownershipfraction": 0.802139,
+    "name": "Sheffield 044D"
+  },
+  "E01007963": {
+    "ownershipfraction": 0.614424,
+    "name": "Sheffield 045A"
+  },
+  "E01007967": {
+    "ownershipfraction": 0.508974,
+    "name": "Sheffield 045B"
+  },
+  "E01007999": {
+    "ownershipfraction": 0.822064,
+    "name": "Sheffield 045C"
+  },
+  "E01008008": {
+    "ownershipfraction": 0.426451,
+    "name": "Sheffield 045D"
+  },
+  "E01008009": {
+    "ownershipfraction": 0.313821,
+    "name": "Sheffield 045E"
+  },
+  "E01008043": {
+    "ownershipfraction": 0.880117,
+    "name": "Sheffield 046A"
+  },
+  "E01008044": {
+    "ownershipfraction": 0.913043,
+    "name": "Sheffield 046B"
+  },
+  "E01008047": {
+    "ownershipfraction": 0.466227,
+    "name": "Sheffield 046C"
+  },
+  "E01008048": {
+    "ownershipfraction": 0.472998,
+    "name": "Sheffield 046D"
+  },
+  "E01008050": {
+    "ownershipfraction": 0.51602,
+    "name": "Sheffield 046E"
+  },
+  "E01007931": {
+    "ownershipfraction": 0.948758,
+    "name": "Sheffield 047A"
+  },
+  "E01007934": {
+    "ownershipfraction": 0.827119,
+    "name": "Sheffield 047B"
+  },
+  "E01007935": {
+    "ownershipfraction": 0.70377,
+    "name": "Sheffield 047C"
+  },
+  "E01007936": {
+    "ownershipfraction": 0.681269,
+    "name": "Sheffield 047D"
+  },
+  "E01007937": {
+    "ownershipfraction": 0.893913,
+    "name": "Sheffield 047E"
+  },
+  "E01007938": {
+    "ownershipfraction": 0.952623,
+    "name": "Sheffield 047F"
+  },
+  "E01008098": {
+    "ownershipfraction": 0.325949,
+    "name": "Sheffield 048A"
+  },
+  "E01008100": {
+    "ownershipfraction": 0.321234,
+    "name": "Sheffield 048B"
+  },
+  "E01008102": {
+    "ownershipfraction": 0.325926,
+    "name": "Sheffield 048C"
+  },
+  "E01008103": {
+    "ownershipfraction": 0.299331,
+    "name": "Sheffield 048D"
+  },
+  "E01007964": {
+    "ownershipfraction": 0.635475,
+    "name": "Sheffield 049A"
+  },
+  "E01007966": {
+    "ownershipfraction": 0.636503,
+    "name": "Sheffield 049B"
+  },
+  "E01007968": {
+    "ownershipfraction": 0.472669,
+    "name": "Sheffield 049C"
+  },
+  "E01007970": {
+    "ownershipfraction": 0.210953,
+    "name": "Sheffield 049D"
+  },
+  "E01008042": {
+    "ownershipfraction": 0.617418,
+    "name": "Sheffield 050A"
+  },
+  "E01008045": {
+    "ownershipfraction": 0.711645,
+    "name": "Sheffield 050B"
+  },
+  "E01008046": {
+    "ownershipfraction": 0.589489,
+    "name": "Sheffield 050C"
+  },
+  "E01008049": {
+    "ownershipfraction": 0.583224,
+    "name": "Sheffield 050D"
+  },
+  "E01008051": {
+    "ownershipfraction": 0.596573,
+    "name": "Sheffield 050E"
+  },
+  "E01008052": {
+    "ownershipfraction": 0.60177,
+    "name": "Sheffield 050F"
+  },
+  "E01007975": {
+    "ownershipfraction": 0.428747,
+    "name": "Sheffield 051A"
+  },
+  "E01007976": {
+    "ownershipfraction": 0.587349,
+    "name": "Sheffield 051B"
+  },
+  "E01007977": {
+    "ownershipfraction": 0.259128,
+    "name": "Sheffield 051C"
+  },
+  "E01007979": {
+    "ownershipfraction": 0.253754,
+    "name": "Sheffield 051D"
+  },
+  "E01008099": {
+    "ownershipfraction": 0.669725,
+    "name": "Sheffield 051E"
+  },
+  "E01008000": {
+    "ownershipfraction": 0.707246,
+    "name": "Sheffield 052A"
+  },
+  "E01008001": {
+    "ownershipfraction": 0.666163,
+    "name": "Sheffield 052B"
+  },
+  "E01008004": {
+    "ownershipfraction": 0.644114,
+    "name": "Sheffield 052C"
+  },
+  "E01008005": {
+    "ownershipfraction": 0.818565,
+    "name": "Sheffield 052D"
+  },
+  "E01008010": {
+    "ownershipfraction": 0.569257,
+    "name": "Sheffield 052E"
+  },
+  "E01007978": {
+    "ownershipfraction": 0.521739,
+    "name": "Sheffield 053A"
+  },
+  "E01007980": {
+    "ownershipfraction": 0.699552,
+    "name": "Sheffield 053B"
+  },
+  "E01007981": {
+    "ownershipfraction": 0.70598,
+    "name": "Sheffield 053C"
+  },
+  "E01007983": {
+    "ownershipfraction": 0.745008,
+    "name": "Sheffield 053D"
+  },
+  "E01007985": {
+    "ownershipfraction": 0.827795,
+    "name": "Sheffield 053E"
+  },
+  "E01007982": {
+    "ownershipfraction": 0.504988,
+    "name": "Sheffield 054A"
+  },
+  "E01008002": {
+    "ownershipfraction": 0.87482,
+    "name": "Sheffield 054B"
+  },
+  "E01008003": {
+    "ownershipfraction": 0.793375,
+    "name": "Sheffield 054C"
+  },
+  "E01008006": {
+    "ownershipfraction": 0.835165,
+    "name": "Sheffield 054D"
+  },
+  "E01007927": {
+    "ownershipfraction": 0.949695,
+    "name": "Sheffield 055A"
+  },
+  "E01007928": {
+    "ownershipfraction": 0.92068,
+    "name": "Sheffield 055B"
+  },
+  "E01007929": {
+    "ownershipfraction": 0.881435,
+    "name": "Sheffield 055C"
+  },
+  "E01007930": {
+    "ownershipfraction": 0.948435,
+    "name": "Sheffield 055D"
+  },
+  "E01007932": {
+    "ownershipfraction": 0.895798,
+    "name": "Sheffield 055E"
+  },
+  "E01007939": {
+    "ownershipfraction": 0.877489,
+    "name": "Sheffield 055F"
+  },
+  "E01008028": {
+    "ownershipfraction": 0.616541,
+    "name": "Sheffield 056A"
+  },
+  "E01008029": {
+    "ownershipfraction": 0.565217,
+    "name": "Sheffield 056B"
+  },
+  "E01008032": {
+    "ownershipfraction": 0.607535,
+    "name": "Sheffield 056C"
+  },
+  "E01008034": {
+    "ownershipfraction": 0.616959,
+    "name": "Sheffield 056D"
+  },
+  "E01007828": {
+    "ownershipfraction": 0.672897,
+    "name": "Sheffield 059A"
+  },
+  "E01007829": {
+    "ownershipfraction": 0.709986,
+    "name": "Sheffield 059B"
+  },
+  "E01007831": {
+    "ownershipfraction": 0.720238,
+    "name": "Sheffield 059C"
+  },
+  "E01007832": {
+    "ownershipfraction": 0.784257,
+    "name": "Sheffield 059D"
+  },
+  "E01007986": {
+    "ownershipfraction": 0.697885,
+    "name": "Sheffield 059E"
+  },
+  "E01008007": {
+    "ownershipfraction": 0.391041,
+    "name": "Sheffield 060A"
+  },
+  "E01008075": {
+    "ownershipfraction": 0.340289,
+    "name": "Sheffield 060B"
+  },
+  "E01008076": {
+    "ownershipfraction": 0.4256,
+    "name": "Sheffield 060C"
+  },
+  "E01008077": {
+    "ownershipfraction": 0.531792,
+    "name": "Sheffield 060D"
+  },
+  "E01008031": {
+    "ownershipfraction": 0.644444,
+    "name": "Sheffield 061A"
+  },
+  "E01008033": {
+    "ownershipfraction": 0.746689,
+    "name": "Sheffield 061B"
+  },
+  "E01008038": {
+    "ownershipfraction": 0.925876,
+    "name": "Sheffield 061C"
+  },
+  "E01008040": {
+    "ownershipfraction": 0.759019,
+    "name": "Sheffield 061D"
+  },
+  "E01007835": {
+    "ownershipfraction": 0.789644,
+    "name": "Sheffield 062A"
+  },
+  "E01007836": {
+    "ownershipfraction": 0.809456,
+    "name": "Sheffield 062B"
+  },
+  "E01007843": {
+    "ownershipfraction": 0.476804,
+    "name": "Sheffield 062C"
+  },
+  "E01007846": {
+    "ownershipfraction": 0.819315,
+    "name": "Sheffield 062D"
+  },
+  "E01008030": {
+    "ownershipfraction": 0.815412,
+    "name": "Sheffield 063A"
+  },
+  "E01008035": {
+    "ownershipfraction": 0.934461,
+    "name": "Sheffield 063B"
+  },
+  "E01008036": {
+    "ownershipfraction": 0.860233,
+    "name": "Sheffield 063C"
+  },
+  "E01008041": {
+    "ownershipfraction": 0.882771,
+    "name": "Sheffield 063D"
+  },
+  "E01007827": {
+    "ownershipfraction": 0.868759,
+    "name": "Sheffield 064A"
+  },
+  "E01007830": {
+    "ownershipfraction": 0.73454,
+    "name": "Sheffield 064B"
+  },
+  "E01007833": {
+    "ownershipfraction": 0.730818,
+    "name": "Sheffield 064C"
+  },
+  "E01007984": {
+    "ownershipfraction": 0.947458,
+    "name": "Sheffield 064D"
+  },
+  "E01008078": {
+    "ownershipfraction": 0.716923,
+    "name": "Sheffield 064E"
+  },
+  "E01008079": {
+    "ownershipfraction": 0.924752,
+    "name": "Sheffield 064F"
+  },
+  "E01008019": {
+    "ownershipfraction": 0.67483,
+    "name": "Sheffield 065A"
+  },
+  "E01008020": {
+    "ownershipfraction": 0.845024,
+    "name": "Sheffield 065B"
+  },
+  "E01008022": {
+    "ownershipfraction": 0.287193,
+    "name": "Sheffield 065C"
+  },
+  "E01008027": {
+    "ownershipfraction": 0.579399,
+    "name": "Sheffield 065D"
+  },
+  "E01008037": {
+    "ownershipfraction": 0.548611,
+    "name": "Sheffield 065E"
+  },
+  "E01008039": {
+    "ownershipfraction": 0.858785,
+    "name": "Sheffield 065F"
+  },
+  "E01007824": {
+    "ownershipfraction": 0.959075,
+    "name": "Sheffield 066A"
+  },
+  "E01007825": {
+    "ownershipfraction": 0.950249,
+    "name": "Sheffield 066B"
+  },
+  "E01007826": {
+    "ownershipfraction": 0.962199,
+    "name": "Sheffield 066C"
+  },
+  "E01007834": {
+    "ownershipfraction": 0.72751,
+    "name": "Sheffield 066D"
+  },
+  "E01007920": {
+    "ownershipfraction": 0.90407,
+    "name": "Sheffield 068A"
+  },
+  "E01007921": {
+    "ownershipfraction": 0.813333,
+    "name": "Sheffield 068B"
+  },
+  "E01007923": {
+    "ownershipfraction": 0.829028,
+    "name": "Sheffield 068C"
+  },
+  "E01007925": {
+    "ownershipfraction": 0.782205,
+    "name": "Sheffield 068D"
+  },
+  "E01007926": {
+    "ownershipfraction": 0.884181,
+    "name": "Sheffield 068E"
+  },
+  "E01007933": {
+    "ownershipfraction": 0.935127,
+    "name": "Sheffield 068F"
+  },
+  "E01007823": {
+    "ownershipfraction": 0.686585,
+    "name": "Sheffield 069A"
+  },
+  "E01007916": {
+    "ownershipfraction": 0.308844,
+    "name": "Sheffield 069B"
+  },
+  "E01007919": {
+    "ownershipfraction": 0.326531,
+    "name": "Sheffield 069C"
+  },
+  "E01008080": {
+    "ownershipfraction": 0.665179,
+    "name": "Sheffield 069D"
+  },
+  "E01008081": {
+    "ownershipfraction": 0.353459,
+    "name": "Sheffield 070A"
+  },
+  "E01008082": {
+    "ownershipfraction": 0.310727,
+    "name": "Sheffield 070B"
+  },
+  "E01008083": {
+    "ownershipfraction": 0.362482,
+    "name": "Sheffield 070C"
+  },
+  "E01008084": {
+    "ownershipfraction": 0.277506,
+    "name": "Sheffield 070D"
+  },
+  "E01007915": {
+    "ownershipfraction": 0.957307,
+    "name": "Sheffield 071A"
+  },
+  "E01007917": {
+    "ownershipfraction": 0.755427,
+    "name": "Sheffield 071B"
+  },
+  "E01007918": {
+    "ownershipfraction": 0.724734,
+    "name": "Sheffield 071C"
+  },
+  "E01007922": {
+    "ownershipfraction": 0.949827,
+    "name": "Sheffield 071D"
+  },
+  "E01007924": {
+    "ownershipfraction": 0.716524,
+    "name": "Sheffield 071E"
+  },
+  "E01008021": {
+    "ownershipfraction": 0.941176,
+    "name": "Sheffield 072A"
+  },
+  "E01008023": {
+    "ownershipfraction": 0.830087,
+    "name": "Sheffield 072B"
+  },
+  "E01008024": {
+    "ownershipfraction": 0.735099,
+    "name": "Sheffield 072C"
+  },
+  "E01008025": {
+    "ownershipfraction": 0.709302,
+    "name": "Sheffield 072D"
+  },
+  "E01032585": {
+    "ownershipfraction": 0.909502,
+    "name": "Sheffield 072E"
+  },
+  "E01033261": {
+    "ownershipfraction": 0.0557103,
+    "name": "Sheffield 073A"
+  },
+  "E01033262": {
+    "ownershipfraction": 0.139803,
+    "name": "Sheffield 073B"
+  },
+  "E01033263": {
+    "ownershipfraction": 0.142173,
+    "name": "Sheffield 073C"
+  },
+  "E01033264": {
+    "ownershipfraction": 0.177215,
+    "name": "Sheffield 073D"
+  },
+  "E01033276": {
+    "ownershipfraction": 0.0553936,
+    "name": "Sheffield 073E"
+  },
+  "E01008114": {
+    "ownershipfraction": 0.0796671,
+    "name": "Sheffield 074A"
+  },
+  "E01008115": {
+    "ownershipfraction": 0.141264,
+    "name": "Sheffield 074B"
+  },
+  "E01033265": {
+    "ownershipfraction": 0.153333,
+    "name": "Sheffield 074C"
+  },
+  "E01033266": {
+    "ownershipfraction": 0.159278,
+    "name": "Sheffield 074D"
+  },
+  "E01033267": {
+    "ownershipfraction": 0.102293,
+    "name": "Sheffield 074E"
+  },
+  "E01007878": {
+    "ownershipfraction": 0.285054,
+    "name": "Sheffield 075A"
+  },
+  "E01007879": {
+    "ownershipfraction": 0.441011,
+    "name": "Sheffield 075B"
+  },
+  "E01007881": {
+    "ownershipfraction": 0.508148,
+    "name": "Sheffield 075C"
+  },
+  "E01007882": {
+    "ownershipfraction": 0.649837,
+    "name": "Sheffield 075D"
+  },
+  "E01007885": {
+    "ownershipfraction": 0.196532,
+    "name": "Sheffield 075E"
+  },
+  "E01007886": {
+    "ownershipfraction": 0.279762,
+    "name": "Sheffield 075F"
+  },
+  "E01033268": {
+    "ownershipfraction": 0.149905,
+    "name": "Sheffield 075G"
+  },
+  "E01007838": {
+    "ownershipfraction": 0.774845,
+    "name": "Sheffield 076A"
+  },
+  "E01007839": {
+    "ownershipfraction": 0.895052,
+    "name": "Sheffield 076B"
+  },
+  "E01007841": {
+    "ownershipfraction": 0.89325,
+    "name": "Sheffield 076C"
+  },
+  "E01007842": {
+    "ownershipfraction": 0.70219,
+    "name": "Sheffield 076D"
+  },
+  "E01033278": {
+    "ownershipfraction": 0.460358,
+    "name": "Sheffield 076E"
+  },
+  "E01033279": {
+    "ownershipfraction": 0.460552,
+    "name": "Sheffield 076F"
+  }
+}
