@@ -31,5 +31,39 @@ styleTurnout = function(v, d, descriptor) {
 
 mapinate()
 
+load("turnout.csv", function(xhr) {
+  csvtext = xhr.responseText
+
+  var rows = CSVParse(csvtext)
+  rows.map(function(x){console.log(x)})
+})
+
+function CSVParse(text) {
+  var t = text.replace(/\r\n/g, "\n")
+  var CSV_RE = /[^",\r\n]+(,|\n)|"(?:[^"]|"")*"(,|\n)|(,|\n)/g
+
+  var rows = []
+  var row = []
+  while(1) {
+    var m = CSV_RE.exec(t)
+    if(m == null) {
+      break
+    }
+    if(row.length == 0) {
+      rows.push(row)
+    }
+    var item = m[0]
+    var rowEnd = /\n$/.test(item)
+    item = item.substr(0, item.length-1)
+
+    row.push(item)
+    console.log("item", item, m.index, CSV_RE.lastIndex)
+    if(rowEnd) {
+      row = []
+    }
+  }
+  return rows
+}
+
 </script>
 </body>
