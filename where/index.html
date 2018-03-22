@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<head>
+<!-- per http://leafletjs.com/examples/quick-start/ -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   crossorigin=""></script>
+</head>
+<body style="margin: 0">
+<div class="sheffmap" style="height:100vh"
+  data-url="turnout.csv"
+  data-column="turnout"
+  data-label=""
+  data-style=""
+  ></div>
+<script src="https://drj11.github.io/sheffmap/sheffmap.js"></script>
+<script>
+
+mapinate()
+
+lines = 
+[
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4677872",
+        "53.37748"
+      ],
+      [
+        "-1.4473001173774904",
+        "53.36015366897808"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4958348",
+        "53.386572"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5001332",
+        "53.385431"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5485222",
+        "53.37196"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5456482",
+        "53.363788"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5456482",
+        "53.363788"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5106255",
+        "53.377735"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5256621",
+        "53.377319"
+      ]
+    }
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.5227191",
+        "53.368957"
+      ],
+      [
+        "-1.5397959211583923",
+        "53.32254002972882"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.5033066",
+        "53.368536"
+      ],
+      [
+        "-1.5242538620414205",
+        "53.35095161540766"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5029908",
+        "53.355636"
+      ]
+    }
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4207239",
+        "53.342978"
+      ],
+      [
+        "-1.3911316562286151",
+        "53.36293676590975"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.3746328",
+        "53.344687"
+      ],
+      [
+        "-1.4259966170935545",
+        "53.34071461020028"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.3732",
+        "53.342009"
+      ],
+      [
+        "-1.3911316562286151",
+        "53.36293676590975"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4093901",
+        "53.345789"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.3779969",
+        "53.358142"
+      ]
+    }
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.3684151",
+        "53.360897"
+      ],
+      [
+        "-1.3557447654673458",
+        "53.346114936803396"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.3615321",
+        "53.363979"
+      ],
+      [
+        "-1.3511948107107765",
+        "53.32918429507932"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.3914232",
+        "53.372297"
+      ],
+      [
+        "-1.4473001173774904",
+        "53.36015366897808"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.3915771",
+        "53.364657"
+      ],
+      [
+        "-1.3686838201506086",
+        "53.36005933577231"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.3812491",
+        "53.373242"
+      ],
+      [
+        "-1.4182332372655961",
+        "53.39696540915059"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.3897116",
+        "53.373223"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5429291",
+        "53.328578"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5266859",
+        "53.326968"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4485646",
+        "53.373734"
+      ]
+    }
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4573487",
+        "53.37088"
+      ],
+      [
+        "-1.477384455765592",
+        "53.34553086662806"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.3460867",
+        "53.347113"
+      ]
+    }
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.3618015",
+        "53.325814"
+      ],
+      [
+        "-1.3557447654673458",
+        "53.346114936803396"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.3482296",
+        "53.329714"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4832534",
+        "53.378869"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4673903",
+        "53.387608"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4745824",
+        "53.465347"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4801008",
+        "53.44147"
+      ]
+    }
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.5726519",
+        "53.471913"
+      ],
+      [
+        "-1.4645670359015106",
+        "53.42842641743934"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4529254",
+        "53.402913"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.460765",
+        "53.401466"
+      ]
+    }
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4617729",
+        "53.401453"
+      ],
+      [
+        "-1.4645670359015106",
+        "53.42842641743934"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4502263",
+        "53.399935"
+      ],
+      [
+        "-1.5043956861035441",
+        "53.36728008083111"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4444542",
+        "53.406623"
+      ],
+      [
+        "-1.5368592343603344",
+        "53.37531466690052"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4492747",
+        "53.420065"
+      ],
+      [
+        "-1.4387999608054018",
+        "53.37534805400177"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.459794",
+        "53.404509"
+      ],
+      [
+        "-1.4645670359015106",
+        "53.42842641743934"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4665685",
+        "53.417276"
+      ],
+      [
+        "-1.479569433324481",
+        "53.42974425025125"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4649906",
+        "53.435111"
+      ],
+      [
+        "-1.3911316562286151",
+        "53.36293676590975"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4991729",
+        "53.427556"
+      ]
+    }
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.5230457",
+        "53.417776"
+      ],
+      [
+        "-1.4700937542665609",
+        "53.45628267843379"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4987618",
+        "53.393389"
+      ],
+      [
+        "-1.5053862200402481",
+        "53.41182228302446"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4911062",
+        "53.390992"
+      ],
+      [
+        "-1.4578209621332199",
+        "53.35760011393069"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4911062",
+        "53.390992"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4911062",
+        "53.390992"
+      ]
+    }
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.5022038",
+        "53.392235"
+      ],
+      [
+        "-1.479569433324481",
+        "53.42974425025125"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5130301",
+        "53.416"
+      ]
+    }
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.5068105",
+        "53.40349"
+      ],
+      [
+        "-1.5036630263294617",
+        "53.39154561502909"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.5096379",
+        "53.404832"
+      ],
+      [
+        "-1.4734671238091799",
+        "53.4021413099425"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.5340737",
+        "53.404075"
+      ],
+      [
+        "-1.4473001173774904",
+        "53.36015366897808"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.5357674",
+        "53.40739"
+      ],
+      [
+        "-1.5053862200402481",
+        "53.41182228302446"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4865432",
+        "53.360303"
+      ],
+      [
+        "-1.4578209621332199",
+        "53.35760011393069"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.5084989",
+        "53.345681"
+      ],
+      [
+        "-1.4956789575451488",
+        "53.32798675028757"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5122581",
+        "53.334793"
+      ]
+    }
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.483709",
+        "53.341172"
+      ],
+      [
+        "-1.4706889306077369",
+        "53.377025653130836"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4603769",
+        "53.334606"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4603769",
+        "53.334606"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4688888",
+        "53.355381"
+      ]
+    }
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4641127",
+        "53.357643"
+      ],
+      [
+        "-1.4956789575451488",
+        "53.32798675028757"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4310343",
+        "53.411296"
+      ],
+      [
+        "-1.4259966170935545",
+        "53.34071461020028"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.4310343",
+        "53.411296"
+      ],
+      [
+        "-1.4387999608054018",
+        "53.37534805400177"
+      ]
+    ]
+  },
+  {
+    "type": "LineString",
+    "coordinates": [
+      [
+        "-1.3980249",
+        "53.413634"
+      ],
+      [
+        "-1.5242538620414205",
+        "53.35095161540766"
+      ]
+    ]
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.3999758",
+        "53.413985"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "home"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4187174",
+        "53.386707"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Park & Arbourthorne"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4473001173774904",
+        "53.36015366897808"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Broomhill & Sharrow Vale"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5043956861035441",
+        "53.36728008083111"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Crookes & Crosspool"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5368592343603344",
+        "53.37531466690052"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Fulwood"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5639641341047337",
+        "53.36307921589856"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Dore & Totley"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5397959211583923",
+        "53.32254002972882"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Ecclesall"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5242538620414205",
+        "53.35095161540766"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Richmond"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.3911316562286151",
+        "53.36293676590975"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Birley"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4259966170935545",
+        "53.34071461020028"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Woodhouse"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.3686838201506086",
+        "53.36005933577231"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Beighton"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.3557447654673458",
+        "53.346114936803396"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Mosborough"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.3511948107107765",
+        "53.32918429507932"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Darnall"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4182332372655961",
+        "53.39696540915059"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Manor Castle"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4387999608054018",
+        "53.37534805400177"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Graves Park"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.477384455765592",
+        "53.34553086662806"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "City"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4706889306077369",
+        "53.377025653130836"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "East Ecclesfield"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4700937542665609",
+        "53.45628267843379"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Firth Park"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4645670359015106",
+        "53.42842641743934"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Burngreave"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4734671238091799",
+        "53.4021413099425"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Southey"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.479569433324481",
+        "53.42974425025125"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Hillsborough"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5053862200402481",
+        "53.41182228302446"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Gleadless Valley"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4578209621332199",
+        "53.35760011393069"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Walkley"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.5036630263294617",
+        "53.39154561502909"
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "ward",
+      "name": "Beauchief & Greenhill"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "-1.4956789575451488",
+        "53.32798675028757"
+      ]
+    }
+  }
+]
+
+
+L.geoJSON(lines, {
+  onEachFeature: function(feature, layer) {
+    if(feature.properties && feature.properties.name) {
+      layer.bindPopup(feature.properties.name)
+    }
+  }
+}
+).addTo(Map)
+
+</script>
+</body>
