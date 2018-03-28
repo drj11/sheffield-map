@@ -18,9 +18,8 @@
   data-style=""
   ></div>
 <script src="https://drj11.github.io/sheffmap/sheffmap.js"></script>
+<script src="vendor/Leaflet.MakiMarkers/Leaflet.MakiMarkers.js"></script>
 <script>
-
-mapinate()
 
 geofeatures = 
 [
@@ -41,7 +40,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Park & Arbourthorne"
     },
     "geometry": {
       "type": "Point",
@@ -55,7 +55,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Broomhill & Sharrow Vale"
     },
     "geometry": {
       "type": "Point",
@@ -69,7 +70,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Crookes & Crosspool"
     },
     "geometry": {
       "type": "Point",
@@ -83,7 +85,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Fulwood"
     },
     "geometry": {
       "type": "Point",
@@ -97,7 +100,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Fulwood"
     },
     "geometry": {
       "type": "Point",
@@ -111,7 +115,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Fulwood"
     },
     "geometry": {
       "type": "Point",
@@ -125,7 +130,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#086"
+      "colour": "#086",
+      "representing": "Broomhill & Sharrow Vale"
     },
     "geometry": {
       "type": "Point",
@@ -139,7 +145,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Crookes & Crosspool"
     },
     "geometry": {
       "type": "Point",
@@ -166,7 +173,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Dore & Totley"
     },
     "geometry": {
       "type": "Point",
@@ -193,7 +201,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Ecclesall"
     },
     "geometry": {
       "type": "Point",
@@ -220,7 +229,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#086"
+      "colour": "#086",
+      "representing": "Nether Edge & Sharrow"
     },
     "geometry": {
       "type": "Point",
@@ -234,7 +244,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Ecclesall"
     },
     "geometry": {
       "type": "Point",
@@ -261,7 +272,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Richmond"
     },
     "geometry": {
       "type": "Point",
@@ -288,7 +300,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Birley"
     },
     "geometry": {
       "type": "Point",
@@ -315,7 +328,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Richmond"
     },
     "geometry": {
       "type": "Point",
@@ -329,7 +343,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Birley"
     },
     "geometry": {
       "type": "Point",
@@ -343,7 +358,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Woodhouse"
     },
     "geometry": {
       "type": "Point",
@@ -370,7 +386,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Beighton"
     },
     "geometry": {
       "type": "Point",
@@ -397,7 +414,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Mosborough"
     },
     "geometry": {
       "type": "Point",
@@ -424,7 +442,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Park & Arbourthorne"
     },
     "geometry": {
       "type": "Point",
@@ -451,7 +470,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Woodhouse"
     },
     "geometry": {
       "type": "Point",
@@ -478,7 +498,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Darnall"
     },
     "geometry": {
       "type": "Point",
@@ -492,7 +513,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Woodhouse"
     },
     "geometry": {
       "type": "Point",
@@ -506,7 +528,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Dore & Totley"
     },
     "geometry": {
       "type": "Point",
@@ -520,7 +543,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Dore & Totley"
     },
     "geometry": {
       "type": "Point",
@@ -534,7 +558,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Manor Castle"
     },
     "geometry": {
       "type": "Point",
@@ -561,7 +586,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Graves Park"
     },
     "geometry": {
       "type": "Point",
@@ -588,7 +614,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Shiregreen & Brightside"
     },
     "geometry": {
       "type": "Point",
@@ -602,7 +629,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Beighton"
     },
     "geometry": {
       "type": "Point",
@@ -629,7 +657,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Beighton"
     },
     "geometry": {
       "type": "Point",
@@ -643,7 +672,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Mosborough"
     },
     "geometry": {
       "type": "Point",
@@ -657,7 +687,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Mosborough"
     },
     "geometry": {
       "type": "Point",
@@ -671,7 +702,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "City"
     },
     "geometry": {
       "type": "Point",
@@ -685,7 +717,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#086"
+      "colour": "#086",
+      "representing": "City"
     },
     "geometry": {
       "type": "Point",
@@ -699,7 +732,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Stannington"
     },
     "geometry": {
       "type": "Point",
@@ -713,7 +747,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "East Ecclesfield"
     },
     "geometry": {
       "type": "Point",
@@ -727,7 +762,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#b09"
+      "colour": "#b09",
+      "representing": "West Ecclesfield"
     },
     "geometry": {
       "type": "Point",
@@ -754,7 +790,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "West Ecclesfield"
     },
     "geometry": {
       "type": "Point",
@@ -781,7 +818,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Shiregreen & Brightside"
     },
     "geometry": {
       "type": "Point",
@@ -795,7 +833,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "West Ecclesfield"
     },
     "geometry": {
       "type": "Point",
@@ -809,7 +848,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#b09"
+      "colour": "#b09",
+      "representing": "East Ecclesfield"
     },
     "geometry": {
       "type": "Point",
@@ -823,7 +863,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#b09"
+      "colour": "#b09",
+      "representing": "Stocksbridge & Upper Don"
     },
     "geometry": {
       "type": "Point",
@@ -837,7 +878,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Stocksbridge & Upper Don"
     },
     "geometry": {
       "type": "Point",
@@ -851,7 +893,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#b09"
+      "colour": "#b09",
+      "representing": "Stocksbridge & Upper Don"
     },
     "geometry": {
       "type": "Point",
@@ -878,7 +921,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Firth Park"
     },
     "geometry": {
       "type": "Point",
@@ -892,7 +936,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Burngreave"
     },
     "geometry": {
       "type": "Point",
@@ -906,7 +951,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Burngreave"
     },
     "geometry": {
       "type": "Point",
@@ -933,7 +979,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Firth Park"
     },
     "geometry": {
       "type": "Point",
@@ -960,7 +1007,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Broomhill & Sharrow Vale"
     },
     "geometry": {
       "type": "Point",
@@ -987,7 +1035,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Crookes & Crosspool"
     },
     "geometry": {
       "type": "Point",
@@ -1014,7 +1063,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Manor Castle"
     },
     "geometry": {
       "type": "Point",
@@ -1041,7 +1091,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Firth Park"
     },
     "geometry": {
       "type": "Point",
@@ -1068,7 +1119,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Southey"
     },
     "geometry": {
       "type": "Point",
@@ -1095,7 +1147,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Shiregreen & Brightside"
     },
     "geometry": {
       "type": "Point",
@@ -1122,7 +1175,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Richmond"
     },
     "geometry": {
       "type": "Point",
@@ -1136,7 +1190,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Southey"
     },
     "geometry": {
       "type": "Point",
@@ -1163,7 +1218,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "East Ecclesfield"
     },
     "geometry": {
       "type": "Point",
@@ -1190,7 +1246,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Hillsborough"
     },
     "geometry": {
       "type": "Point",
@@ -1217,7 +1274,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Gleadless Valley"
     },
     "geometry": {
       "type": "Point",
@@ -1231,7 +1289,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Walkley"
     },
     "geometry": {
       "type": "Point",
@@ -1245,7 +1304,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Walkley"
     },
     "geometry": {
       "type": "Point",
@@ -1272,7 +1332,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Southey"
     },
     "geometry": {
       "type": "Point",
@@ -1286,7 +1347,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Hillsborough"
     },
     "geometry": {
       "type": "Point",
@@ -1313,7 +1375,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Walkley"
     },
     "geometry": {
       "type": "Point",
@@ -1340,7 +1403,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Burngreave"
     },
     "geometry": {
       "type": "Point",
@@ -1354,7 +1418,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Stannington"
     },
     "geometry": {
       "type": "Point",
@@ -1368,7 +1433,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Stannington"
     },
     "geometry": {
       "type": "Point",
@@ -1395,7 +1461,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Park & Arbourthorne"
     },
     "geometry": {
       "type": "Point",
@@ -1422,7 +1489,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Hillsborough"
     },
     "geometry": {
       "type": "Point",
@@ -1449,7 +1517,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Gleadless Valley"
     },
     "geometry": {
       "type": "Point",
@@ -1463,7 +1532,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Nether Edge & Sharrow"
     },
     "geometry": {
       "type": "Point",
@@ -1490,7 +1560,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Beauchief & Greenhill"
     },
     "geometry": {
       "type": "Point",
@@ -1504,7 +1575,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Beauchief & Greenhill"
     },
     "geometry": {
       "type": "Point",
@@ -1531,7 +1603,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#086"
+      "colour": "#086",
+      "representing": "City"
     },
     "geometry": {
       "type": "Point",
@@ -1545,7 +1618,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Graves Park"
     },
     "geometry": {
       "type": "Point",
@@ -1559,7 +1633,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Graves Park"
     },
     "geometry": {
       "type": "Point",
@@ -1573,7 +1648,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Gleadless Valley"
     },
     "geometry": {
       "type": "Point",
@@ -1600,7 +1676,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Beauchief & Greenhill"
     },
     "geometry": {
       "type": "Point",
@@ -1627,7 +1704,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Birley"
     },
     "geometry": {
       "type": "Point",
@@ -1654,7 +1732,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Manor Castle"
     },
     "geometry": {
       "type": "Point",
@@ -1681,7 +1760,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#fb3"
+      "colour": "#fb3",
+      "representing": "Ecclesall"
     },
     "geometry": {
       "type": "Point",
@@ -1695,7 +1775,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Darnall"
     },
     "geometry": {
       "type": "Point",
@@ -1709,7 +1790,8 @@ geofeatures =
     "type": "Feature",
     "properties": {
       "type": "home",
-      "colour": "#d00"
+      "colour": "#d00",
+      "representing": "Darnall"
     },
     "geometry": {
       "type": "Point",
@@ -2113,26 +2195,33 @@ geofeatures =
   }
 ]
 
+L.MakiMarkers.accessToken =
+"pk.eyJ1IjoiZHJqIiwiYSI6ImNqZmJmbzVzZTIxN2cycXBlOWJ4NjVpb2YifQ.hXiscAapzp0R_UrFd5_SAQ"
+
+mapinate(function(map) {
+
 L.geoJSON(geofeatures, {
   pointToLayer: function(feature, latlng) {
     if(feature.properties && feature.properties.type == "home") {
-      return L.circleMarker(latlng, {
-        radius: 10,
-        stroke: 0,
-        fillColor: feature.properties.colour,
-        fillOpacity: 0.7
+      var colour = feature.properties.colour
+      var marker = L.MakiMarkers.icon({
+        color: colour
       })
-    } else {
-      return L.marker(latlng)
+      return L.marker(latlng, {
+        icon: marker
+      })
     }
   },
   onEachFeature: function(feature, layer) {
-    if(feature.properties && feature.properties.name) {
-      layer.bindPopup(feature.properties.name)
+    if(feature.properties) {
+      var content = "Councillor for " +
+        feature.properties.representing
+      layer.bindPopup(content)
     }
   }
 }
-).addTo(Map)
+).addTo(map)
 
+})
 </script>
 </body>
