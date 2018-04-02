@@ -1708,6 +1708,12 @@ L.MakiMarkers.accessToken =
 
 mapinate(function(map) {
 
+// Make an array of the wards.
+namedLayers = []
+map.eachLayer(l => {
+  if(l.feature && l.feature.properties.name) namedLayers.push(l) }
+)
+
 L.geoJSON(geofeatures, {
   pointToLayer: function(feature, latlng) {
     if(feature.properties && feature.properties.type == "home") {
@@ -1732,6 +1738,43 @@ L.geoJSON(geofeatures, {
   }
 }
 ).addTo(map)
+
+// Highlight the keyLayer, whilst
+// returning other layers to a default style.
+// If keyLayer is undefined or similar,
+// all layers return to a default style.
+function highlight(layers, keyLayer)
+{
+  for(let layer of layers) {
+    let style = {
+      color: 'black',
+      fillColor: 'black',
+      weight: 1 }
+    if(layer == keyLayer) {
+      style.fillColor = '#666'
+      style.color = '#000'
+      style.weight = 2.8
+    }
+    layer.setStyle(style)
+  }
+}
+
+function setH1(text)
+{
+    let h1 = document.getElementsByTagName('H1')[0]
+    h1.innerHTML = 'Where Councillors Are: ' + text
+}
+
+function clicked(layer)
+{
+  highlight(namedLayers, layer)
+  setH1(layer.feature.properties.name)
+}
+
+for (let layer of namedLayers) {
+  layer.on('click', e => clicked(layer))
+}
+highlight(namedLayers)
 
 })
 </script>
