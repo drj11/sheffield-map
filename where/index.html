@@ -1739,6 +1739,11 @@ L.geoJSON(geofeatures, {
 }
 ).addTo(map)
 
+homeLayers = []
+map.eachLayer(l => {
+  if(l.feature && l.feature.properties.type == "home") homeLayers.push(l) }
+)
+
 // Highlight the keyLayer, whilst
 // returning other layers to a default style.
 // If keyLayer is undefined or similar,
@@ -1749,13 +1754,32 @@ function highlight(layers, keyLayer)
     let style = {
       color: 'black',
       fillColor: 'black',
-      weight: 1 }
+      weight: 1
+    }
     if(layer == keyLayer) {
-      style.fillColor = '#666'
-      style.color = '#000'
-      style.weight = 2.8
+      style = {
+        fillColor: '#666',
+        color: '#000',
+        weight: 2.8,
+      }
     }
     layer.setStyle(style)
+  }
+}
+
+function highlightPins(layers, name)
+{
+  for(let layer of layers) {
+    let style = {
+      color: '#999'
+    }
+    if(!name || layer.feature.properties.representing == name) {
+      style = {
+        color: layer.feature.properties.colour
+      }
+    }
+    var marker = L.MakiMarkers.icon(style)
+    layer.setIcon(marker)
   }
 }
 
@@ -1767,8 +1791,10 @@ function setH1(text)
 
 function clicked(layer)
 {
+  let ward = layer.feature.properties.name
   highlight(namedLayers, layer)
-  setH1(layer.feature.properties.name)
+  highlightPins(homeLayers, ward)
+  setH1(ward)
 }
 
 for (let layer of namedLayers) {
