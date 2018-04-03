@@ -1783,6 +1783,15 @@ function highlightPins(layers, name)
   }
 }
 
+function findNamedWard(name)
+{
+  for(let layer of namedLayers) {
+    if(layer.feature.properties.name == name) {
+      return layer
+    }
+  }
+}
+
 function setH1(text)
 {
     let h1 = document.getElementsByTagName('H1')[0]
@@ -1795,12 +1804,21 @@ function clicked(layer)
   highlight(namedLayers, layer)
   highlightPins(homeLayers, ward)
   setH1(ward)
+  window.location.hash = ward
 }
 
 for (let layer of namedLayers) {
   layer.on('click', e => clicked(layer))
 }
 highlight(namedLayers)
+
+if(window.location.hash.length > 1) {
+  let name = decodeURIComponent(window.location.hash.substr(1))
+  let layer = findNamedWard(name)
+  if(layer) {
+    clicked(layer)
+  }
+}
 
 })
 </script>
