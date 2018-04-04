@@ -1823,6 +1823,11 @@ function clicked(layer)
     layer = undefined
     ward = ''
   }
+  select(layer, ward)
+}
+
+function select(layer, ward)
+{
   highlight(namedLayers, layer)
   highlightPins(homeLayers, ward)
   setH1(ward)
@@ -1843,7 +1848,7 @@ if(window.location.hash.length > 1) {
   let name = wardFromFragment()
   let layer = findNamedWard(name)
   if(layer) {
-    clicked(layer)
+    select(layer, name)
   }
 }
 
