@@ -1809,13 +1809,20 @@ function findNamedWard(name)
 
 function setH1(text)
 {
+    if(text) {
+      text = ': ' + text
+    }
     let h1 = document.getElementsByTagName('H1')[0]
-    h1.innerHTML = 'Where Councillors Are: ' + text
+    h1.innerHTML = 'Where Councillors Are' + text
 }
 
 function clicked(layer)
 {
   let ward = layer.feature.properties.name
+  if(wardFromFragment() == ward) {
+    layer = undefined
+    ward = ''
+  }
   highlight(namedLayers, layer)
   highlightPins(homeLayers, ward)
   setH1(ward)
@@ -1827,8 +1834,13 @@ for (let layer of namedLayers) {
 }
 highlight(namedLayers)
 
+function wardFromFragment()
+{
+  return decodeURIComponent(window.location.hash.substr(1))
+}
+
 if(window.location.hash.length > 1) {
-  let name = decodeURIComponent(window.location.hash.substr(1))
+  let name = wardFromFragment()
   let layer = findNamedWard(name)
   if(layer) {
     clicked(layer)
